@@ -6,7 +6,8 @@ namespace BrokerTest
 {
     class Program
     {
-        public static readonly string connectionString = "Server=.;Database=BrokerTest;Integrated Security=true;";
+        // Enter the correct connection string
+        public static readonly string connectionString = "Server=.;Database=BrokerSampleDatabase;Integrated Security=true;";
 
         static void Main(string[] args)
         {
